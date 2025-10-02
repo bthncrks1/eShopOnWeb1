@@ -25,7 +25,6 @@ jobs:
       with:
         dotnet-version: '10.0.x'
         dotnet-quality: 'preview'
-        include-prerelease: true
     #Build/Test/Publish the .net project
     - name: Build with dotnet
       run: dotnet build ./eShopOnWeb.sln --configuration Release
